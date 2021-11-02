@@ -1,0 +1,65 @@
+section.register-container{
+    display: flex;
+    position: relative;
+    margin-top: 3%;
+
+}
+
+section.register-container > div{
+    margin: auto;
+    width: 450px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.register-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+section.register-container{
+    color: rgb(95, 95, 95);
+}
+
+form input[type="e-mail"],
+form input[type="password"],
+form input[type="text"],
+form input[type="date"],
+form button[type="submit"]{
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+    transition: 1s;
+}
+
+form input[type="e-mail"]:focus,
+form input[type="e-mail"]:hover,
+form input[type="date"]:focus,
+form input[type="date"]:hover,
+form input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover{
+    background-color: #ccc;
+    transition: 1s;
+}
+
+form button[type="submit"] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+    background-color: #7eb3dd;
+    cursor: pointer;
+}
+
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+    background-color:  rgba(21, 131, 107, 0.671);
+}

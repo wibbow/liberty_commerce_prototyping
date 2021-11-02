@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+body{
+    
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Barre de navigation*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  20px;
+    color: white;
+    
+    position: sticky;
+    top: 0;
+}
+
+nav h1{
+    font-size: 24px;
+}
+
+nav .onglets{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+nav .onglets p{
+    font-size: 21px;
+    margin-right:  40px;
+    cursor: pointer;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/*Fin de barre de navigation*/
+
+/*Section_1*/
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Toutes les cartes*/
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cards .card{
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.cards .card img{
+    width: 400px;
+}
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card .card-body{
+    margin-top: -10px;
+    width: 500px;
+}
+/*Fin de toutes les cartes*/
+
+/*Fin section 1*/
+
+@keyframes apparitionSousMenu {
+  0% {
+      height: 80px;
+  }
+  100% {
+      height: 150px;
+  }
+}
+
+
+.logo_site {
+    width: 3.5%;
+    position: absolute;
+    left: 1%;
+    top: 20%;
+}
+
+a {
+    text-decoration:none;
+}
+
+body {
+    background: #7eb3dd;
+}
+/*Barre de navigation*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  20px;
+    background: url(https://i1.sndcdn.com/visuals-000020946955-1oz9aH-t1240x260.jpg);
+    position: sticky;
+    top: 0;
+}
+
+nav h1{
+    font-size: 24px;
+}
+
+nav .onglets{
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+nav .onglets p{
+    font-size: 21px;
+    margin-right:  10px;
+    cursor: pointer;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/*Fin de barre de navigation*/
+
+header nav > ul {
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav > ul > li:hover > a{
+    color: #2169EC;
+    
+}
+
+header li a {
+    text-decoration: none;
+    color: #7EB3DD;
+}
+
+.case1 {
+    position: absolute;
+    border: solid;
+    left: 1%;
+    right: 67%;
+    height: 83%;
+    border-radius: 30% 0% 0% 30%;
+    background-color: #7ED2DD;
+    top: 0px;
+}
+
+.case1:hover {
+    transition: 1s;
+    background: black;
+}
+
+.case2 {
+    position: absolute;
+    border: solid;
+    left: 33%;
+    right: 33%;
+    height: 83%;
+    border-radius: 0% 0% 0% 0%;
+    background-color: #7EB3DD;
+    top: 0px;
+}
+
+.case2:hover {
+    transition: 1s;
+    background: black;
+}
+
+.case3 {
+    position: absolute;
+    border: solid;
+    right: 1%;
+    left: 67%;
+    height: 83%;
+    border-radius: 0% 30% 30% 0%;
+    background-color: #7E8DDD;
+    top: 0px;
+}
+
+.case3:hover {
+    transition: 1s;
+    background: black;
+}
+
+.menu-deroulant:hover {
+    animation: apparitionSousMenu 1s forwards;
+    /*animation: mooveArrow 1s forwards;*/
+}
+
+/*pb de retour d'animation ????*/
+
+.connexion {
+    position: absolute;
+    right: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+
+.conteneur_menu {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    top: 80px;    
+}
+
+.conteneur_footer {
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(126,179,221,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.footer_logos {
+    transition: 0.5s;
+    position: static;
+    display: inline-block;
+    float: none;
+    width: 3%;
+    margin-left: 31%;
+    
+    
+}
+
+.footer_logos:hover {
+    transition: 0.5s;
+    width: 5%;
+    filter: drop-shadow(16px 16px 20px red) invert(100%);
+}
+
+.ul_footer_logos {
+    list-style: none;
+}
+
+.title_site {
+    position: absolute;
+    top: 1%;
+    margin-left: 5%;
+    
+}
+#fb_logo {
+    margin-bottom: 0.5%;
+}
+
+
+/*FIN DU HAEDERFOOTER*/
+
+/*ARTICLES*/
+
+.global_article_container {
+    height: 500px;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #5B82A1;
+           
+}
+
+.article_picture {
+    margin-left: 1%;
+    margin-top: 25px;
+    border: solid;
+    width: -webkit-fill-available;
+}
+
+.article_picture_container {
+   
+    position:static;
+    margin-top: 2%;
+    width: 482px;
+    height: 360px;
+}
+
+.article_title {
+    margin-left: 488px;
+    position: absolute;
+   
+    top: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.article_price {
+    position: absolute;
+    margin-left: 488px;
+    top: 20%;
+    
+}
+
+.article_description {
+    
+    position: absolute;
+    margin-left: 550px;
+    top: 33%;
+    
+            
+}
+
+.article_categorie {
+   
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article_button {
+    margin-left: 1000px;
+    margin-top: 5%;
+}
+
+.buy_button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #00F6E3;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.buy_button:hover {
+    cursor: pointer;
+    
+}
+
+/*FIN DE ARTICLES*/

@@ -1,0 +1,81 @@
+section.login-container{
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+}
+
+section.login-container > div{
+    margin: auto;
+    width: 450px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.login-container form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+section.login-container{
+    color: rgb(95, 95, 95);
+}
+
+form input[type="password"],
+form input[type="e-mail"],
+form button[type="submit"]{
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+    transition: 1s;
+}
+
+form input[type="e-mail"]:focus,
+form input[type="e-mail"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+    background-color: #ccc;
+    transition: 1s;
+    }
+
+form button[type="submit"] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+    background-color:  #7eb3dd;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+    background-color:  rgba(21, 131, 107, 0.671);
+}
+
+
+body {
+    background: #7eb3dd;
+
+}
+
+.title_form {
+    text-align:center;
+    font-weight: bold;
+    font-size: 250%;
+    font-family:monospace;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.mdp_oublie {
+    font-weight: bold;
+    color : #7eb3dd;
+    margin-left: -60%;
+}

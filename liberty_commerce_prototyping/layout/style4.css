@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #7EB3DD;
+}
+
+header {
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: -8px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin: 0px;
+   }
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  20px;
+    color: white;
+
+    position: sticky;
+    top: 0;
+}
+
+header nav h1{
+    font-size: 24px;
+}
+
+header nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+header nav .onglets p{
+    font-size: 21px;
+    margin-right:  40px;
+    cursor: pointer;
+}
+
+header nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/* set animation */
+@keyframes apparitionSousMenu {
+
+  100% {
+      height: 150px;
+  }
+}
+
+/* fin set animation */
+.logo_site {
+    width: 3%;
+    position: absolute;
+    left: 1%;
+    top: 10px;
+}
+
+a {
+    text-decoration:none;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    
+}
+header .menu-deroulant
+{
+  
+    height: 75px;
+    color: #FFF;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: 1px 1px 1px #333;
+    background: url(https://i1.sndcdn.com/visuals-000020946955-1oz9aH-t1240x260.jpg);
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    font-size: 18px;
+    top: 0;
+}
+
+header nav > ul {
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav > ul > li:hover > a{
+    color: #2169EC;
+    
+}
+
+header li a {
+    text-decoration: none;
+    color: #7EB3DD;
+}
+
+
+.menu-deroulant:hover {
+    animation: apparitionSousMenu 1s forwards;
+    /*animation: mooveArrow 1s forwards;*/
+}
+
+.connexion {
+    position: absolute;
+    right: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+
+.conteneur_menu {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    top: 80px;    
+}
+
+.conteneur_footer {
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(126,179,221,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.footer_logos {
+    transition: 0.5s;
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 3%;
+    margin-left: 31%;
+    
+    
+}
+
+.footer_logos:hover {
+    transition: 0.5s;
+    width: 5%;
+    filter: drop-shadow(16px 16px 20px red) invert(100%);
+}
+
+.ul_footer_logos {
+    list-style: none;
+}
+
+.title_site {
+    position: absolute;
+    top: 1%;
+    margin-left: 5%;
+    
+}
+#fb_logo {
+    margin-bottom: 0.5%;
+}

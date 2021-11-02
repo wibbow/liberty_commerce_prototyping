@@ -1,0 +1,45 @@
+html, body{
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+/*Section_1*/
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Toutes les cartes*/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+}
+.cards .card{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.cards .card img{
+    width: 230px;
+}
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card .card-body{
+    margin-top: -10px;
+    width: 300px;
+    font-size: 17px;
+}
+
